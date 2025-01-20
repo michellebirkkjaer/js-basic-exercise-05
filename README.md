@@ -21,9 +21,9 @@
 3. Create a `<p>` tag in your HTML with:
    An id attribute set to `text`.
    The text "old content" written between the `<p>` opening and closing tags
-   `html
-    <p id="text">old content</p>
-    `
+      ```html
+      <p id="text">old content</p>
+      ```
 
 4. Use `document.getElementById` inside your script.js to select the `<p>` tag by its `id` attribute.
 
